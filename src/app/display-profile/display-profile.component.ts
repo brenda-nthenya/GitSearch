@@ -21,7 +21,7 @@ export class DisplayProfileComponent implements OnInit {
   constructor(private userservice: UserService) {}
 
   ngOnInit(): void {
-    this.userservice.getGithubUser('KellyEgesa');
+    this.userservice.getGithubUser('brenda-nthenya');
     this.user = this.userservice.user;
     this.repos = this.userservice.repos;
   }

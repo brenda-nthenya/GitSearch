@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'user', component: DisplayProfileComponent },
   { path: 'repos', component: DisplayRepositoriesComponent },
   { path: '', component: HomeComponent },
+  
 ];
 
 @NgModule({

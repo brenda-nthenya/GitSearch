@@ -7,7 +7,7 @@ import { Repos } from '../repos';
   styleUrls: ['./repositories.component.css'],
 })
 export class RepositoriesComponent implements OnInit {
-  @Input() repos: Repos;
+  @Input() repos: Repos | undefined;
   constructor() {}
 
   ngOnInit(): void {}
