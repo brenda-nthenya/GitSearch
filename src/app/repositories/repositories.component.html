@@ -1,0 +1,24 @@
+<div class="row">
+    <div
+      class="card m-2 mx-auto"
+      id="repoCard"
+      *ngFor="let repo of repos"
+      appHighlight
+    >
+      <div class="card-body my-auto">
+        <h5 class="card-title font-weight-bold">{{ repo.name }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          {{ repo.description }}
+        </h6>
+        <p class="card-text">
+          <span class="badge badge-pill badge-warning">{{ repo.language }}</span>
+          <span class="float-right font-italic">{{
+            repo.updatedAt | datePassed
+          }}</span>
+        </p>
+        <a href="{{ repo.url }}" target="_blank" class="card-link"
+          >Open Repository</a
+        >
+      </div>
+    </div>
+  </div>
