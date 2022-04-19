@@ -10,7 +10,8 @@ import { Repos } from '../repos';
 })
 export class DisplayProfileComponent implements OnInit {
   user!: User;
-  repos!: Repos[];
+  // repos: Repos [] | undefined;
+  repos = <any>{};
 
   getUser(search: any): void {
     this.userservice.getGithubUser(search.parameters);
