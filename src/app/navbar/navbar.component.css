@@ -1,0 +1,10 @@
+#repoCard {
+    width: 20rem;
+    box-shadow: 0 2px 4px 0 #c70039, 0 3px 10px 0 #900c3f;
+  }
+  
+  #repoCard:hover {
+    width: 22rem;
+    margin: 0;
+    box-shadow: 0 6px 10px 0 #28389e, 0 8px 22px 0 #2341c3;
+  }
