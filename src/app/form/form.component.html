@@ -1,0 +1,18 @@
+<div class="m-2" (submit)="submitParameter()">
+    <form class="mx-auto">
+      <div class="form-group my-auto row">
+        <input
+          type="text"
+          class="form-control rounded col"
+          placeholder="Search"
+          #search="ngModel"
+          name="search"
+          [(ngModel)]="newSearch.parameters"
+        />
+  
+        <button type="submit" class="btn btn-info float-right col-">
+          Search
+        </button>
+      </div>
+    </form>
+  </div>
