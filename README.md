@@ -13,8 +13,7 @@ This is Agular CLI application that allows a user to enter a GitHub username int
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Live Page 
-https://Owiti-charles.github.io/Git-Search/ 
-
+(https://brenda-nthenya.github.io/GitSearch/)
 
 
 Composed of two main components.
@@ -48,7 +47,7 @@ Composed of two main components.
 * CSS
 * Bootstrap 
 * Typescript
-* Generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+* Generated with [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Known Bugs
 * No known bug now but pull requests are encouraged
