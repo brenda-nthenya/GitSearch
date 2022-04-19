@@ -8,7 +8,8 @@ import { UserService } from '../user-service/user.service';
   styleUrls: ['./display-repositories.component.css'],
 })
 export class DisplayRepositoriesComponent implements OnInit {
-  repos!: Repos[];
+  // repos: Repos[] | undefined;
+  repos = <any>{};
 
   searchParameters: any;
   constructor(private repoService: UserService) {}
