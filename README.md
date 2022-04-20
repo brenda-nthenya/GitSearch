@@ -30,7 +30,7 @@ Composed of two main components.
 
 * git clone ```https://github.com/brenda-nthenya/GitSearch.git```
 
-* cd Git-Search
+* cd GitSearch
 
 * code . or atom . based on the text editor you have.
 
