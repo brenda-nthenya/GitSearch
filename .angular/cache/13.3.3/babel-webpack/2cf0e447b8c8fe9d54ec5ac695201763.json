@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Search {\n  constructor(parameters) {\n    this.parameters = parameters;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
